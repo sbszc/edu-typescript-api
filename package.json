@@ -1,0 +1,22 @@
+{
+  "name": "javabrains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.180",
+    "@types/request": "^2.48.8"
+  }
+}
